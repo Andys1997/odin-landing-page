@@ -71,3 +71,153 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 50px;
+}
+
+.containers {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 150px;
+}
+
+.border-one {
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.border-two {
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.border-three {
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.border-four {
+    border: 3px solid blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotee {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.wrapper {
+    border: 2px solid #3882f6;
+    display: flex;
+    width: 70%;
+    height: 150px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.action {
+    font-size: 24px;
+}
+
+.button-right {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-right:hover {
+    background: white;
+    color: black;
+}
