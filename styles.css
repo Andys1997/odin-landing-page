@@ -157,7 +157,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .quote-text {
@@ -219,5 +219,20 @@ button:hover {
 
 .button-right:hover {
     background: white;
+    color: black;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    font-size: 25px;
+}
+
+.links:hover {
+    background-color: white;
     color: black;
 }
